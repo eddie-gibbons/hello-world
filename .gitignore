@@ -1,0 +1,23 @@
+# --- Compiled binaries ---
+*.o             # Object files
+*.a             # Static libraries
+*.so            # Shared libraries
+*.out           # Common executable name (Linux/Mac)
+*.exe           # Windows executables
+*.dll           # Windows dynamic libraries
+
+# --- Build directories ---
+build/          # CMake/make build files
+bin/            # Common output folder for executables
+Debug/          # Visual Studio debug builds
+Release/        # Visual Studio release builds
+
+# --- IDE/Editor files ---
+.vscode/        # VS Code config
+.idea/          # CLion/IntelliJ config
+*.suo           # Visual Studio user options
+*.user          # IDE-specific user files
+
+# --- OS junk ---
+.DS_Store       # Mac OS metadata
+Thumbs.db       # Windows thumbnail cache
